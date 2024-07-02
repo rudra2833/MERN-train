@@ -1,0 +1,90 @@
+/* FFD0EC pink */
+/* 81689D purple */
+/* 474F7A navy blue */
+/* 1F2544   dark blue */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFD0EC;
+    
+}
+
+.title{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #333;
+    margin: 0;
+    background-color: #81689D;
+    color: white;
+}
+
+.outer_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.starter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.but{
+    background-color: #474F7A;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 2px auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+#guess{
+    width: 250px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+
+.guess_title{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}

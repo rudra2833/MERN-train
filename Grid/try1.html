@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: 100px 200px;
+      /* 1fr 2fr 1fr-> container related (00px -> 3columns ) */
+      grid-template-columns: 400px 800px;
+    }
+
+    .grid-item {
+      font-size: 3rem;
+      background-color: darkviolet;
+      border: 5px solid goldenrod;
+      color: white;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
+</body>
+</html>
+
+<!-- minmax styling -->
+<!-- .grid-container {
+    display: grid;
+    grid-template-rows: 200px minmax(400px, 5fr);
+    grid-template-columns: 200px minmax(400px, 5fr);
+  } -->
+
+
+
+  <!-- repeat styling
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 200px);
+    grid-template-columns: repeat(2, 200px);
+    grid-auto-rows: 300px;
+  } -->
+
+
+
+

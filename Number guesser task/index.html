@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 class="title">Number Finder Game</h1>
+    <div class="outer_1">
+
+        <div class="starter">
+            <h1 class="starter_title">Press Start to generate Number</h1>
+            <button class="starter_but but" onclick="start()">Start</button>
+        </div>
+
+        <div class="content">
+
+            <h1 class="inner_title">Enter your guessed Number</h1>
+            <div class="inner_1">
+                <input type="number" class="inner_input" id="guess" placeholder="Enter your Number">
+                <button class="inner_but but" onclick="guess()">Guess</button>
+            </div>
+
+            <h1 class="answer_title">
+            </h1>
+
+            <div class="guess_title">
+                Total Guesses: <span id="total_guesses">0</span>
+            </div>
+            
+        </div>
+
+        <div class="reset">
+            <h2 class="starter_title">Press Reset to Play again</h2>
+            <button class="reset_but but" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="footer">
+            @By Rudra P Patel 2024
+        </div>
+
+    </div>
+
+</body>
+</html>
